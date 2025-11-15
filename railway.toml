@@ -2,6 +2,3 @@
 [build]
   builder = "DOCKERFILE"
   dockerfilePath = "./dockerfile"
-
-[deploy]
-  startCommand = "graphql-engine serve"
