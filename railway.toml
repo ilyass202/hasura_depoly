@@ -1,8 +1,7 @@
+# railway.toml
 [build]
   builder = "DOCKERFILE"
-  dockerfilePath = "./dockerfile"
+  dockerfilePath = "./Dockerfile"
 
 [deploy]
-  startCommand = ""
-  restartPolicyType = "ON_FAILURE"
-  restartPolicyMaxRetries = 10
+  startCommand = "graphql-engine serve"
