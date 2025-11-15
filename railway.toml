@@ -1,7 +1,7 @@
 # railway.toml
 [build]
   builder = "DOCKERFILE"
-  dockerfilePath = "./Dockerfile"
+  dockerfilePath = "./dockerfile"
 
 [deploy]
   startCommand = "graphql-engine serve"
