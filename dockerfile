@@ -1,8 +1,8 @@
 # Dockerfile
-FROM hasura/graphql-engine:v2.40.0
+FROM hasura/graphql-engine:v2.40.0.cli-migrations-v3
 
 # Variables
-ENV HASURA_GRAPHQL_ENABLE_CONSOLE=true
+ENV HASURA_GRAPHQL_ENABLE_CONSOLE=false
 ENV HASURA_GRAPHQL_ADMIN_SECRET=ilyassAshraf
 
 # Attendre PostgreSQL + appliquer migrations
